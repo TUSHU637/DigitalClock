@@ -62,3 +62,27 @@ font-size:20px;
 background-color:green;
 
 }
+@media screen and (max-width: 500px) {
+    .clock{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        width:95vw;
+        position:relative;
+        height:50vh;
+        
+        
+    }
+    .clock span{
+        color:rgb(0, 5, 5);
+        background-color: rgba(141, 241, 64, 0.55);
+        opacity: 1;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        font-size:30px;
+        text-shadow:2px 2px 4px rgba(0,0,0,0.3);
+        height:160px;
+        width:20vw;
+    }
+}
